@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="themeTogg" class="heading">
+
+        <h1>Weather Dashboard</h1>
+        <i id="themeToggler" class="fa-solid fa-sun"></i>
+    </div>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter city name</h3>
+            <input type="text" class="cityInput" placeholder="E.g. New York, London, Tokyo, etc.">
+            <button class="search">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+        <!-- Weather Data -->
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>______ ( ______ )</h2>
+                    <h4>Temp: __ &deg;C</h4>
+                    <h4>Wind: __ M/S</h4>
+                    <h4>Humidity: __ %</h4>
+                </div>
+
+                <!-- <div class="icon">
+                    <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                    <h4>Rain</h4>
+                </div> -->
+            </div>
+
+            <!-- Day forecast -->
+            <div class="days-forecast">
+                <h2>5 Day Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>( _______ )</h3>
+                        <h4>Temp: __ &deg;C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __ %</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( _______ )</h3>
+                        <h4>Temp: __ &deg;C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __ %</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( _______ )</h3>
+                        <h4>Temp: __ &deg;C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __ %</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( _______ )</h3>
+                        <h4>Temp: __ &deg;C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __ %</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( _______ )</h3>
+                        <h4>Temp: __ &deg;C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __ %</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- favicon JS script -->
+    <script src="https://kit.fontawesome.com/5e4dd23c6d.js" crossorigin="anonymous"></script>
+
+    <!-- Custom JS link -->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
