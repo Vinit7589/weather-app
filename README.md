@@ -9,4 +9,6 @@
 1. Log in to https://home.openweathermap.org
 2. Select your profile and get the api key.
    
-**Live Demo** link :- https://vinit7589.github.io/weather-app/
+**Live Demo** 
+
+![Untitled video - Made with Clipchamp](https://github.com/Vinit7589/weather-app/assets/69915723/0c114a48-f58d-41a3-9f6e-873d6f14618c)
