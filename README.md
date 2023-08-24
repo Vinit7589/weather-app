@@ -5,6 +5,6 @@
 4. I hope you liked it.
 
 **NOTE**
-**1. change your api key** 
+**Change your api key before running this project** 
 
 **Live Demo** link :- https://vinit7589.github.io/weather-app/
