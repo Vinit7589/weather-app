@@ -7,7 +7,7 @@ const themeChanger = document.querySelector("#themeToggler")
 
 
 // API key
-const api_id = '869977f6efb48c1ebc105647b5db8c2f'
+const api_id = 'YOUR API KEY'
 
 const createWeatherCard = (cityName, weatherItem, index) => {
     if (index === 0) { // HTML for main Card
